@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* تخصيص شريط التمرير */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  border: 6px solid #141B2D;
+  box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+  background-color: #1F2A40;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #41C1AA;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #349E8F;
+}
+
+/* تخصيص شريط التمرير في Firefox */
+html {
+  scrollbar-color: #41C1AA #1F2A40;
+}
